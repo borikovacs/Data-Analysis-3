@@ -70,6 +70,7 @@ Open and run `code/main_house_price_prediction.ipynb` - this notebook:
 - Builds all 5 models with cross-validation
 - Compares model performance
 - Validates on external datasets
+- **Approximate run time**: 10-12 mins 
 
 The data preparation notebook (`house_price_prediction_data_prep.ipynb`) is executed through the main notebook. You do not need to run it separately.
 
@@ -107,7 +108,9 @@ The data preparation notebook (`house_price_prediction_data_prep.ipynb`) is exec
 
 ## Results Summary
 
-See `output/model_comparison_all.csv` for full results.
+See `output/model_comparison_all.csv` for full results. Intermediate results and descriptive statistics can also be found in the output folder. 
+
+The perminilary descrpitive analysis has been done on the main dataset, the code for that can be found in the `code/backup` folder. The output from the preliminary analysis can also be found in the output folder. 
 
 ---
 
