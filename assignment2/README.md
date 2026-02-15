@@ -21,6 +21,7 @@ assignment2/
 │   ├── raw/                          # Original data from cs_bisnode_panel
 │   └── clean/                        # Processed data
 ├── output/                           # Figures and tables
+├── reports/                          # Executive and technical reports
 └── README.md
 ```
 
@@ -49,18 +50,22 @@ pip install pandas numpy scikit-learn matplotlib seaborn patsy statsmodels
 
 1. Open and run `code/01_data_prep_fast_growth.ipynb` (to prepare dataset for prediction)
 2. Open and run `code/02_predicting_fast_growth.ipynb` (TASKS 1 - prediction using the full sample)
+3. Open and run `code/03_sectors_predicting.ipynb` (TASKS 2 - prediction manufacturing and services)
+
 
 
 - **Approximate run time**: 
 `code/01_data_prep_fast_growth.ipynb` ~ 1 min
 `code/02_predicting_fast_growth.ipynb` ~ 15 mins
+`code/03_sectors_predicting.ipynb` ~ 10 mins
+
 ---
 
 
 ## Results Summary
 
-1. Executive Summary: See `output/ececutive_summary.pdf`  
-2. Technical Summary: See `output/technical_summary.pdf`  
+1. Executive Summary: See `reports/executive_report.pdf`  
+2. Technical Summary: See `reports/technical_report.pdf`  
 
 
 ---
